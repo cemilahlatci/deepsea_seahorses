@@ -7,5 +7,5 @@ gunicorn
 plotly_express
 datetime
 numpy
-dateutil
+python-dateutil
 dash-exceptions
