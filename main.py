@@ -11,8 +11,18 @@ from datetime import datetime as dt
 from datetime import date, timedelta as td
 import numpy as np
 
+
+VALID_USERNAME_PASSWORD_PAIRS = {
+    'alphega': 'alphega'
+}
+
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 server = app.server
+
+auth = dash_auth.BasicAuth(
+    app,
+    VALID_USERNAME_PASSWORD_PAIRS
+)
 
 blackbold={'color': 'black', 'font-weight': 'bold'}
 regions = ['City', 'District', 'Pharmacy']
