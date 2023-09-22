@@ -7,4 +7,5 @@ gunicorn
 plotly_express
 datetime
 numpy
-python-dateutil
+python_dateutil
+dash_auth
