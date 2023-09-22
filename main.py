@@ -10,6 +10,7 @@ from dateutil.relativedelta import relativedelta
 from datetime import datetime as dt
 from datetime import date, timedelta as td
 import numpy as np
+import dash_auth
 
 
 VALID_USERNAME_PASSWORD_PAIRS = {
