@@ -119,7 +119,7 @@ app.layout = dbc.Container([
                 dbc.CardBody([
                     html.H4("Map Graph Filtering", className="card-title text-white bg-warning"),
                     html.P(
-                        "First choose on of the options(All, City, District etc.)"
+                        "First choose on of the options(All, City, District) "
                         "Then make a selection on 'Choose Region' section",
                         className="card text-white bg-warning mb-3",
                             ),
@@ -131,7 +131,7 @@ app.layout = dbc.Container([
                 dbc.CardBody([
                     html.H4("Period Monitoring", className="card-title text-white bg-success"),
                     html.P(
-                        "Choose a period then group the data for better results"
+                        "Choose period then group the data for better results "
                         "Detailed data can be monitored via period section",
                         className="card text-white bg-success mb-3",
                             ),
@@ -143,7 +143,7 @@ app.layout = dbc.Container([
                 dbc.CardBody([
                     html.H4("Interactive Pie Chart Category", className="card-title text-white bg-info"),
                     html.P(
-                        "Main slices and sub slices can be clicked and expanded"
+                        "Main slices and sub slices can be clicked "
                         "Click the center to get back to the upper branch",
                         className="card text-white bg-info mb-3",
                             ),
