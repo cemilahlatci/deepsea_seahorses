@@ -119,7 +119,7 @@ app.layout = dbc.Container([
                 dbc.CardBody([
                     html.H4("Map Graph Filtering", className="card-title text-white bg-warning"),
                     html.P(
-                        "First choose on of the options(All, City, District) "
+                        "First choose on of the options(All, City, District)   "
                         "Then make a selection on 'Choose Region' section",
                         className="card text-white bg-warning mb-3",
                             ),
@@ -143,7 +143,7 @@ app.layout = dbc.Container([
                 dbc.CardBody([
                     html.H4("Interactive Pie Chart Category", className="card-title text-white bg-info"),
                     html.P(
-                        "Main slices and sub slices can be clicked "
+                        "Main slices and sub slices can be clicked       "
                         "Click the center to get back to the upper branch",
                         className="card text-white bg-info mb-3",
                             ),
