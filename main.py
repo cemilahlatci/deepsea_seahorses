@@ -117,10 +117,10 @@ app.layout = dbc.Container([
         dbc.Col([
             dbc.Card([
                 dbc.CardBody([
-                    html.H4("Weekly Sales", className="card-title text-white bg-warning"),
+                    html.H4("Map Graph Filtering", className="card-title text-white bg-warning"),
                     html.P(
-                        "Some quick example text to build on the card title and "
-                        "make up the bulk of the card's content.",
+                        "First choose on of the options(All, City, District..."
+                        "Then make a selection on 'Choose Region' section",
                         className="card text-white bg-warning mb-3",
                             ),
                              ])
@@ -129,10 +129,10 @@ app.layout = dbc.Container([
         dbc.Col([
             dbc.Card([
                 dbc.CardBody([
-                    html.H4("Number of Pharmacies", className="card-title text-white bg-success"),
+                    html.H4("Period Monitoring", className="card-title text-white bg-success"),
                     html.P(
-                        "Some quick example text to build on the card title and "
-                        "make up the bulk of the card's content.",
+                        "Choose a period then group the data for better interval"
+                        "Detailed data can be monitored via period section",
                         className="card text-white bg-success mb-3",
                             ),
                             ])
@@ -141,10 +141,11 @@ app.layout = dbc.Container([
         dbc.Col([
             dbc.Card([
                 dbc.CardBody([
-                    html.H4("Weekly Performance", className="card-title text-white bg-info"),
+                    html.H4("Interactive Pie Chart Category", className="card-title text-white bg-info"),
                     html.P(
                         "Some quick example text to build on the card title and "
-                        "make up the bulk of the card's content.",
+                        "Main slices and sub slices can be clicked and monitored"
+                        "Click the center to get back to the upper branch",
                         className="card text-white bg-info mb-3",
                             ),
                             ])
