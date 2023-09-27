@@ -143,7 +143,6 @@ app.layout = dbc.Container([
                 dbc.CardBody([
                     html.H4("Interactive Pie Chart Category", className="card-title text-white bg-info"),
                     html.P(
-                        "Some quick example text to build on the card title and "
                         "Main slices and sub slices can be clicked and monitored"
                         "Click the center to get back to the upper branch",
                         className="card text-white bg-info mb-3",
